@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { fontFamily } from "tailwindcss/defaultTheme" 
 
 export default {
   content: [
@@ -9,8 +10,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        red: '#F53838',
+        grey: '#F4F4F4'
+      },
+      fontFamily: {
+        rubik: ["var(--font-rubik)", ...fontFamily.sans],
       },
     },
   },
