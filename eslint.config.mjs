@@ -11,6 +11,14 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    ignores: [
+      "lefthook.yml",
+      "package.json",
+      "package-lock.json",
+      "commitlint.config.js",
+    ],
+  },
 ];
 
 export default eslintConfig;
