@@ -2,6 +2,7 @@ import Header from "@/components/header/Header";
 import Features from "@/components/Main/features/Features";
 import Infos from "@/components/Main/infos/Infos";
 import Introduction from "@/components/Main/Introduction";
+import Networks from "@/components/Main/Networks";
 import Plan from "@/components/Main/plan/Plan";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Infos />
         <Features />
         <Plan />
+        <Networks />
       </main>
 
       <footer className="bg-gray-800 text-white p-4 text-center">
