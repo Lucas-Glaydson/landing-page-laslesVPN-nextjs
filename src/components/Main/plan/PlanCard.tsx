@@ -12,18 +12,18 @@ interface PlanCardProps {
 export default function PlanCard({
   title = "Standard Plan",
   features = [],
-  price = "$9/mo",
+  price = "$9",
   isHighlighted = false,
   period = "",
 }: PlanCardProps) {
   return (
     <div
-      className={`m-auto my-5 w-48 h-[440px] border-2 rounded-lg flex flex-col justify-between items-center py-5 
+      className={`m-auto my-5 w-48 h-[500px] border-2 rounded-lg flex flex-col justify-between items-center py-5 
         ${isHighlighted ? "border-red" : "border-gray-200"}`}
     >
       <Image src="/Box.svg" alt="box image" width={80} height={91} />
       <h3>{title}</h3>
-      <div>
+      <div className="max-h-60 h-56">
         {features.map((feature, index) => (
           <FeatureText key={index} text={feature} />
         ))}

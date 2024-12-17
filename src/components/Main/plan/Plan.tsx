@@ -40,6 +40,7 @@ export default function Plan() {
         "Unlimited bandwidth",
         "Encrypted connection",
         "Yes traffic logs",
+        "Works on all devices",
         "Connect anyware",
         "Get new features",
       ],
@@ -64,11 +65,11 @@ export default function Plan() {
             align: "start",
             
           }}
-          className="w-full max-w-md"
+          className="w-full max-w-lg"
         >
           <CarouselContent>
             {plans.map((plan, index) => (
-              <CarouselItem key={index} className="basis-[45%]">
+              <CarouselItem key={index} className="basis-[50%]">
                 <div className="p-1">
                   <PlanCard
                     title={plan.title}
