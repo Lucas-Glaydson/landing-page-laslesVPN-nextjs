@@ -69,7 +69,7 @@ export default function Plan() {
         >
           <CarouselContent>
             {plans.map((plan, index) => (
-              <CarouselItem key={index} className="basis-[50%]">
+              <CarouselItem key={index} className="basis-[200px]">
                 <div className="p-1">
                   <PlanCard
                     title={plan.title}

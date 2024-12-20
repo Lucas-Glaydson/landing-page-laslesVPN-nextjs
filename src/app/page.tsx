@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Features from "@/components/Main/features/Features";
 import Infos from "@/components/Main/infos/Infos";
@@ -20,9 +21,7 @@ export default function Home() {
         <Networks />
       </main>
 
-      <footer className="bg-gray-800 text-white p-4 text-center">
-        <h2>Footer</h2>
-      </footer>
+      <Footer />
     </div>
   );
 }
