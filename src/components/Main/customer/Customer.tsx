@@ -12,7 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 export default function Customer() {
   return (
-    <section className="font-rubik text-center mx-2 overflow-hidden">
+    <section className="font-rubik text-center mx-2 overflow-x-hidden">
       <div className="flex flex-col justify-center items-center">
         <h2 className="font-semibold text-xl w-56 text-center mb-3">
           Trusted by thousands of happy customer

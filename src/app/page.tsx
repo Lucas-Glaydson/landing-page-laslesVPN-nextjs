@@ -6,10 +6,11 @@ import Infos from "@/components/Main/infos/Infos";
 import Introduction from "@/components/Main/Introduction";
 import Networks from "@/components/Main/Networks";
 import Plan from "@/components/Main/plan/Plan";
+import Subscribe from "@/components/Main/Subscribe";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen space-y-10">
       <header className="flex justify-between mx-6 my-4">
         <Header />
       </header>
@@ -21,6 +22,7 @@ export default function Home() {
         <Plan />
         <Networks />
         <Customer />
+        <Subscribe />
       </main>
 
       <Footer />

@@ -4,7 +4,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 export default function Plan() {
@@ -61,13 +60,13 @@ export default function Plan() {
       <div>
         <Carousel
           opts={{
-            align: "start",
+            align: "center",
           }}
-          className="w-full max-w-lg"
+          className="w-full max-w-7xl m-auto"
         >
           <CarouselContent>
             {plans.map((plan, index) => (
-              <CarouselItem key={index} className="basis-[200px]">
+              <CarouselItem key={index} className="basis-[200px] lg:basis-1/3">
                 <div className="p-1">
                   <PlanCard
                     title={plan.title}
@@ -80,7 +79,6 @@ export default function Plan() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
         </Carousel>
       </div>
     </section>
