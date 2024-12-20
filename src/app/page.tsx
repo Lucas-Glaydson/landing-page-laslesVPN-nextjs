@@ -1,5 +1,6 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
+import Customer from "@/components/Main/customer/Customer";
 import Features from "@/components/Main/features/Features";
 import Infos from "@/components/Main/infos/Infos";
 import Introduction from "@/components/Main/Introduction";
@@ -13,12 +14,13 @@ export default function Home() {
         <Header />
       </header>
 
-      <main className="flex-grow flex-col font-rubik">
+      <main className="flex-grow flex-col font-rubik space-y-10">
         <Introduction />
         <Infos />
         <Features />
         <Plan />
         <Networks />
+        <Customer />
       </main>
 
       <Footer />

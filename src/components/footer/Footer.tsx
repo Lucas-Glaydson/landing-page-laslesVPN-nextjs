@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-
 export default function Footer() {
   return (
-    <footer className="bg-grey text-black p-8 font-rubik">
-      <section className="flex justify-between h-48 mb-11">
+    <footer className="bg-grey text-black p-8 font-rubik text-sm w-full">
+      <section className="flex justify-between gap-4 h-48 mb-11">
         <div className=" h-48">
           <h2 className="font-semibold mb-3">Product</h2>
-          <ul className="flex flex-col justify-start space-y-3 h-48">
+          <ul className="flex flex-col justify-start space-y-3 h-48 mr-4">
             <li>
               <Link href="">Download</Link>
             </li>

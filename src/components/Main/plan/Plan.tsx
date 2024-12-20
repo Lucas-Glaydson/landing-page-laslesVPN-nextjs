@@ -51,12 +51,11 @@ export default function Plan() {
   ];
 
   return (
-    <section className="mt-4 space-y-2">
+    <section className="space-y-2">
       <div className="text-center w-64 m-auto space-y-2">
-        <h2 className="font-semibold text-[19px]">Choose your plan</h2>
-        <p className="text-[9px]">
-          Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu
-          id purus ullamcorper. Vel vel erat semper augue.
+        <h2 className="font-semibold text-xl">Choose your plan</h2>
+        <p className="text-xs ">
+          Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id purus ullamcorper. Vel vel erat semper augue.
         </p>
       </div>
       <div>
