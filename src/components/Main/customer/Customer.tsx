@@ -30,7 +30,7 @@ export default function Customer() {
           className="w-full max-w-7xl m-auto"
           plugins={[
             Autoplay({
-              delay: 8000,
+              delay: 10000,
             }),
           ]}
         >
