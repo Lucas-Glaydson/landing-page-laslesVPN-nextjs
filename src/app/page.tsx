@@ -10,11 +10,8 @@ import Subscribe from "@/components/Main/Subscribe";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen space-y-10">
-      <header className="flex justify-between mx-6 my-4">
-        <Header />
-      </header>
-
+    <div className="flex flex-col min-h-screen space-y-10 overflow-x-hidden">
+      <Header />
       <main className="flex-grow flex-col font-rubik space-y-10">
         <Introduction />
         <Infos />
@@ -24,7 +21,6 @@ export default function Home() {
         <Customer />
         <Subscribe />
       </main>
-
       <Footer />
     </div>
   );
