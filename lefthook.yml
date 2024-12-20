@@ -1,9 +1,0 @@
-pre-commit:
-  parallel: true
-  commands:
-    prettier:
-      run: npx prettier --check {staged_files}
-    check-format:
-      run: npx prettier --ignore-unknown --write {staged_files}
-    lint:
-      run: npx eslint {staged_files}

@@ -14,7 +14,7 @@ export default function Home() {
       </header>
 
       <main className="flex-grow flex-col font-rubik">
-        <Introduction/>
+        <Introduction />
         <Infos />
         <Features />
         <Plan />

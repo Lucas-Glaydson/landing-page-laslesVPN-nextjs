@@ -19,7 +19,7 @@ export default function Plan() {
       ],
       price: "Free",
       isHighlighted: false,
-      period: ""
+      period: "",
     },
     {
       title: "Standard Plan",
@@ -32,7 +32,7 @@ export default function Plan() {
       ],
       price: "$9",
       isHighlighted: false,
-      period: "/ mo"
+      period: "/ mo",
     },
     {
       title: "Premium Plan",
@@ -46,7 +46,7 @@ export default function Plan() {
       ],
       price: "$12",
       isHighlighted: true,
-      period: "/ mo"
+      period: "/ mo",
     },
   ];
 
@@ -63,7 +63,6 @@ export default function Plan() {
         <Carousel
           opts={{
             align: "start",
-            
           }}
           className="w-full max-w-lg"
         >
