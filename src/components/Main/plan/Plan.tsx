@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/carousel";
 
 export default function Plan() {
-  // Lista de planos com dados diferentes
   const plans = [
     {
       title: "Basic Plan",
@@ -51,9 +50,9 @@ export default function Plan() {
 
   return (
     <section className="space-y-2">
-      <div className="text-center w-64 m-auto space-y-2">
-        <h2 className="font-semibold text-xl">Choose your plan</h2>
-        <p className="text-xs ">
+      <div className="text-center w-64 m-auto space-y-2 lg:mt-20 lg:mb-10 lg:w-[560px]">
+        <h2 className="font-semibold text-xl lg:text-3xl">Choose your plan</h2>
+        <p className="text-xs lg:text-base">
           Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id purus ullamcorper. Vel vel erat semper augue.
         </p>
       </div>

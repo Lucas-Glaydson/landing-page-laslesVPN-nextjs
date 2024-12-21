@@ -18,11 +18,11 @@ export default function PlanCard({
 }: PlanCardProps) {
   return (
     <div
-      className={`m-auto my-5 w-48 h-[500px] border-2 rounded-lg flex flex-col justify-between items-center py-5 
-        ${isHighlighted ? "border-red" : "border-gray-200"}`}
+      className={`m-auto my-5 w-48 h-[500px] border-2 rounded-2xl flex flex-col justify-between items-center py-5 
+        ${isHighlighted ? "border-red" : "border-gray-200"} lg:w-80 lg:h-[802px] lg:py-16`} 
     >
-      <Image src="/Box.svg" alt="box image" width={80} height={91} />
-      <h3>{title}</h3>
+      <Image className="lg:w-36 lg:h-40" src="/Box.svg" alt="box image" width={80} height={91} />
+      <h3 className="font-semibold lg:text-xl">{title}</h3>
       <div className="max-h-60 h-56">
         {features.map((feature, index) => (
           <FeatureText key={index} text={feature} />
@@ -33,7 +33,7 @@ export default function PlanCard({
           <span className="font-semibold">{price}</span>{" "}
           {period}
         </h2>
-        <button className="bg-red text-white rounded-md font-medium w-24 h-6 text-[12px]">
+        <button className="bg-red text-white rounded-md font-medium w-24 h-6 text-[12px] mt-2">
           Select
         </button>
       </div>
