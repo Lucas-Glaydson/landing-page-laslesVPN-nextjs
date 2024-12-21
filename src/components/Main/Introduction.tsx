@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Introduction(){
   return(
-    <section className="flex flex-col items-center m-4 text-center lg:flex-row-reverse lg:justify-around">
+    <section className="flex flex-col items-center m-4 text-center lg:flex-row-reverse lg:justify-center lg:gap-16 lg:px-6">
       <div>
         <Image className="mb-8 lg:w-[565px] lg:h-96" src="/Illustration.svg" alt="person using computer" width={306} height={191}/> 
       </div>

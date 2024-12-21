@@ -7,12 +7,12 @@ export default function Header() {
       <div className="flex w-[50%] space-x-40 items-center">
         <div className="flex space-x-1 items-center">
           <Image className="lg:w-7 lg:h-7" src="/logo.svg" alt="page logo" width={20} height={20} />
-          <h1 className="lg:text-[16px] text-[15px]">
+          <h1 className="lg:text-sm text-[15px]">
             Lasles<span className="font-semibold">VPN</span>
           </h1>
         </div>
         <div className="hidden lg:flex">
-          <ul className="flex justify-between w-96 text-base">
+          <ul className="flex justify-between w-96 text-sm">
             <li><Link href=""/>features</li>
             <li><Link href=""/>Pricing</li>
             <li><Link href=""/>Testimonial</li>
@@ -21,9 +21,9 @@ export default function Header() {
         </div>
       </div>
       
-      <div className="hidden lg:flex gap-5 text-base">
+      <div className="hidden lg:flex gap-5 text-sm">
         <button>Sign in</button>
-        <button className="border-solid border-[1px] border-red text-red rounded-xl py-1 px-2">Sign up</button>
+        <button className="border-solid border-[1px] border-red text-red rounded-xl py-1 px-2 ">Sign up</button>
       </div>
       <div className="lg:hidden">
         <Image src="/menu.svg" alt="" width={24} height={24} />
