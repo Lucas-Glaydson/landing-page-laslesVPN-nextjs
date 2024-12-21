@@ -14,10 +14,10 @@ export default function Customer() {
   return (
     <section className="font-rubik text-center mx-2 overflow-x-hidden">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="font-semibold text-xl w-56 text-center mb-3">
+        <h2 className="font-semibold text-xl w-56 text-center mb-3 lg:text-3xl lg:w-80 lg:mb-5">
           Trusted by thousands of happy customer
         </h2>
-        <p className="w-80 text-xs text-center mb-8">
+        <p className="w-80 text-xs text-center mb-8 lg:text-base lg:w-[460px] lg:mb-10">
           Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id purus ullamcorper.
           Vel vel erat semper augue.
         </p>
