@@ -11,10 +11,10 @@ export default function Features(){
         <h2 className="text-xl font-semibold mt-6 text-balance lg:text-[30px]">We provide many features you can use</h2>
         <p className="text-sm mt-5 text-left lg:text-base">Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id purus ullamcorper. Vel vel erat semper augue.</p>
         <ul className="w-full mt-8">
-          <FeatureText text="Powerfull online protection."/>
-          <FeatureText text="Internet with borders."/>
-          <FeatureText text="Supercharged VPN."/>
-          <FeatureText text="No specific time limits."/>
+          <FeatureText text="Powerfull online protection." isBold={true}/>
+          <FeatureText text="Internet with borders." isBold={true}/>
+          <FeatureText text="Supercharged VPN." isBold={true}/>
+          <FeatureText text="No specific time limits." isBold={true}/>
         </ul>
       </div>
     </section>

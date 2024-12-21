@@ -25,7 +25,7 @@ export default function PlanCard({
       <h3 className="font-semibold lg:text-xl">{title}</h3>
       <div className="max-h-60 h-56">
         {features.map((feature, index) => (
-          <FeatureText key={index} text={feature} />
+          <FeatureText key={index} text={feature} isBold={false}/>
         ))}
       </div>
       <div className="flex flex-col items-center">
@@ -33,7 +33,7 @@ export default function PlanCard({
           <span className="font-semibold">{price}</span>{" "}
           {period}
         </h2>
-        <button className="bg-red text-white rounded-md font-medium w-24 h-6 text-[12px] mt-2">
+        <button className="bg-red text-white rounded-xl font-medium w-24 h-6 text-[12px] mt-2 lg:w-28 lg:h-7">
           Select
         </button>
       </div>
